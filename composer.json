@@ -1,0 +1,28 @@
+{
+    "name": "lakshmaji/validators",
+    "description": "Laravel Validators",
+    "keywords": [
+        "Validator", "Laravel", "composer"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lakshmaji",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lakshmaji\\Validators\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lakshmaji\\Validators\\ValidatorServiceProvider"
+            ]
+        }
+    }
+}

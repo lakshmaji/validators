@@ -1,0 +1,27 @@
+<?php 
+
+namespace validator_namespace;
+
+use Lakshmaji\Validators\Laravel\LaravelValidator;
+use Lakshmaji\Validators\Contracts\ValidableInterface;
+
+
+/**
+ * Class validator_class
+ * @package validator_namespace
+ */
+class validator_class extends LaravelValidator implements ValidableInterface
+{
+    /**
+     * @var array
+     */
+    protected $rules = [
+    ];
+
+    /**
+     * @var array
+     */
+    protected $messages = [
+    ];
+}
+// end of validator_class class
