@@ -20,7 +20,7 @@ return [
     | The path to the validators folder.
     |
      */
-    'validators_path' => 'app' . DIRECTORY_SEPARATOR . 'Validators',
+    'validator_path' => 'app' . DIRECTORY_SEPARATOR . 'Validators',
 
 ];
 
