@@ -163,10 +163,6 @@ php artisan list
 php artisan help make:validator
 ```
 
->### Inspired by 
-- http://culttt.com/2014/01/13/advanced-validation-service-laravel-4/
-- https://github.com/andersao/laravel-validator
-
 >### Thanks to 
 
 [@parthshukla] (https://github.com/parthshukla) 
